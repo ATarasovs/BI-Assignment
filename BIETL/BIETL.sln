@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "BIETL", "BIETL\BIETL.dtproj", "{A0136BC3-1424-4615-BEBF-600D9EB9E0CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0136BC3-1424-4615-BEBF-600D9EB9E0CD}.Development|Default.ActiveCfg = Development
+		{A0136BC3-1424-4615-BEBF-600D9EB9E0CD}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C191801E-5F0B-427E-80A1-0A77660DAC80}
+	EndGlobalSection
+EndGlobal

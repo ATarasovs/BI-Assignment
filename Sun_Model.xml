@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ConceptualModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BusinessProcess Name="BI Assignment">
+    <Measures>
+      <Measure Name="# of visits" />
+      <Measure Name="# of downloads" />
+    </Measures>
+    <Dimensions>
+      <Dimension Name="User">
+        <Level Name=" " UID="fbc38f69-7c86-409f-81fc-530cfd1e54f3">
+          <Level Name="Postcode" UID="4ce21dd9-4ea8-486c-a3b8-b2a55dd9062b">
+            <Level Name="City" UID="5455be95-5e00-43eb-98af-525c2e3059d0">
+              <Level Name="State" UID="f742ada2-cc8e-4fcc-ae44-34ef8e4122e9">
+                <Level Name="Country" UID="b5f89a15-ddb4-4c29-a2fb-247f02d0e47a" />
+              </Level>
+            </Level>
+          </Level>
+          <Level Name="IP" UID="77541ee8-c317-4d50-a9cb-720d612a7afc" />
+          <Level Name="Browser" UID="8edb0183-7e13-4acc-b8c9-73b291e56024" />
+          <Level Name="OS" UID="5ac1d310-5476-4945-9533-aa9de758d85b" />
+        </Level>
+      </Dimension>
+      <Dimension Name="Time">
+        <Level Name="Hour" UID="88526f5a-3491-49c1-b88f-dd287d76dafb">
+          <Level Name="Day" UID="a47117bb-3685-4c86-afa1-73ff82d4496a">
+            <Level Name="Month" UID="d2529d81-08a3-4b1b-a5b5-911987c77269">
+              <Level Name="Quarter" UID="648d014b-d4a1-4862-acf2-f4c760944f50">
+                <Level Name="Year" UID="06b67b68-51a9-4d90-a54b-d5448052dae7" />
+              </Level>
+            </Level>
+            <Level Name="Week" UID="4437ab87-b42e-4478-8114-eaa83f01c484" />
+          </Level>
+          <Level Name="Day of the week" UID="ac88c492-38d5-4ff6-8d91-a9889d3dde2f" />
+        </Level>
+      </Dimension>
+    </Dimensions>
+  </BusinessProcess>
+</ConceptualModel>
